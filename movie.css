@@ -1,0 +1,40 @@
+body {
+    background-image: url("images/background.png");
+}
+
+.banner {
+    background-image: url("images/banner.png");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.movie-title {
+    font-family: 'Tahoma', Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+
+.movie-general-overview {
+    display: flex;
+    align-items: end;
+
+    border: thin;
+    border-style: solid;
+    border-color: grey;
+}
+
+.movie-info {
+    width: 350px;
+    align-items: end;
+    margin-left: auto;
+}
+
+.movie-general-overview-image {
+    
+}
+
