@@ -23,18 +23,30 @@ body {
     display: flex;
     align-items: end;
 
+    width: fit-content;
+
+    padding-right: 15%;
+    padding-left: 15%;
     border: thin;
     border-style: solid;
     border-color: grey;
+    margin: 0 auto
+
+
 }
 
 .movie-info {
     width: 350px;
     align-items: end;
     margin-left: auto;
+    background-color: #A2B964;
 }
 
-.movie-general-overview-image {
-    
+.movie-info img {
+    width: 100%;
+    height: auto;
 }
+
+
+
 
