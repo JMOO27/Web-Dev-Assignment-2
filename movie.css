@@ -1,5 +1,7 @@
 body {
     background-image: url("images/background.png");
+    margin: 0;
+    padding: 0;
 }
 
 .banner {
@@ -19,33 +21,59 @@ body {
     text-shadow: 3px 3px black;
 }
 
-.movie-general-overview {
+.overall-content-area {
     display: flex;
-    align-items: end;
+    justify-content: space-between;
+    gap: 2%;
 
-    width: fit-content;
+    width: 800px;
 
-    padding-right: 15%;
-    padding-left: 15%;
-    border: thin;
+    border: 4px;
+    border-radius: 20px;
     border-style: solid;
     border-color: grey;
-    margin: 0 auto
-
-
+    margin: 0 auto;
 }
 
-.movie-info {
-    width: 350px;
-    align-items: end;
-    margin-left: auto;
+
+
+
+.general-overview {
+    order: 3;
+    width: 250px;
     background-color: #A2B964;
 }
 
-.movie-info img {
-    width: 100%;
-    height: auto;
+.content-section {
+    width: fit-content;
+    padding-left: 5px;
 }
+
+.overall-content-area-review-header {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+
+    font-weight: bold;
+    color: red;
+    font-size: 48pt;
+    background-image: url("images/rbg.png");
+}
+
+.overall-content-area-review-header img {
+    height: 83px;
+    width: auto;
+}
+
+.comment-section-1 {
+    width: 47%;
+}
+
+.comment-section-2 {
+    width: 47%;
+}
+
 
 
 
