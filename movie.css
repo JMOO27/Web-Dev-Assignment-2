@@ -1,5 +1,6 @@
 body {
     background-image: url("images/background.png");
+    font-family: 'Verdana', Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    height: 50px
 }
 
 .movie-title {
@@ -23,8 +25,6 @@ body {
 
 .overall-content-area {
     display: flex;
-    justify-content: space-between;
-    gap: 2%;
 
     width: 800px;
 
@@ -35,30 +35,47 @@ body {
     margin: 0 auto;
 }
 
-
-
-
 .general-overview {
     order: 3;
     width: 250px;
     background-color: #A2B964;
 }
 
-.content-section {
-    width: fit-content;
+.general-overview dt {
+    font-weight: bold;
+}
+
+.general-overview dl {
     padding-left: 5px;
 }
 
+.content-section {
+    height: 50%;
+    order: 2;
+}
+
 .overall-content-area-review-header {
-    width: 100%;
-    height: 75%;
+    width: 550px;
+    height: 83px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-image: url("images/rbg.png");
+    margin-bottom: 5px;
+}
+
+.overall-content-area-review-header-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 550px;
+    height: 83px;
 
     font-weight: bold;
     color: red;
     font-size: 48pt;
-    background-image: url("images/rbg.png");
+    margin: 0 auto;
 }
 
 .overall-content-area-review-header img {
@@ -66,14 +83,48 @@ body {
     width: auto;
 }
 
+.comment-section-box {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+}
+
 .comment-section-1 {
     width: 47%;
+    padding-left: 5px;
+    flex: 1;
 }
 
 .comment-section-2 {
     width: 47%;
+    padding-right: 5px;
+    flex: 1;
 }
 
+.comment-section-box p {
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    background-color: #E8DC9B;
+
+    font-size: 8pt;
+    font-weight: bold;
+
+    padding: 8px;
+}
+
+.comment-section-box p1 {
+    display: block;
+    min-height: 33px;
+    margin-bottom: 20pt;
+    font-size: 8pt;
+}
+
+.comment-section-box p1 img {
+    float: left;
+    margin-right: 5px;
+}
 
 
 
