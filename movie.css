@@ -6,10 +6,11 @@ body {
 }
 
 .banner {
-    background-image: url("images/banner.png");
     justify-content: center;
     align-items: center;
     display: flex;
+
+    background-image: url("images/bannerbg.png");
     height: 50px
 }
 
@@ -33,6 +34,7 @@ body {
     border-style: solid;
     border-color: grey;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .general-overview {
@@ -47,6 +49,10 @@ body {
 
 .general-overview dl {
     padding-left: 5px;
+}
+
+.general-overview li {
+    list-style-type: none;
 }
 
 .content-section {
@@ -107,6 +113,7 @@ body {
     border-style: solid;
     border-color: grey;
     background-color: #E8DC9B;
+    align-content: center;
 
     font-size: 8pt;
     font-weight: bold;
@@ -125,6 +132,34 @@ body {
     float: left;
     margin-right: 5px;
 }
+
+.comment-section-1 img {
+    float: left;
+    padding: 5px
+}
+
+.comment-section-2 img {
+    float: left;
+    padding: 5px;
+}
+
+.overall-content-area p2 {
+    position: absolute;
+    align-self: flex-end;
+    width: 550px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #A2B964;
+}
+
+.w3c-image-box {
+    display: flex;
+    justify-content: end;
+    opacity: 50%;
+}
+
+
 
 
 
